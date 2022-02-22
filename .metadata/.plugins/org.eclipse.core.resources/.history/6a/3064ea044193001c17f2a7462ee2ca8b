@@ -1,0 +1,17 @@
+package assignment1;
+
+public class Y {
+	public static void main(String args[]) {
+		new M().methodPublic();
+		new M().methodProtected();
+		new M().methodDefault();
+		new N().methodPublic();
+		new N().methodProtected();
+		new N().methodDefault();
+		new X().methodPublic(); 
+		System.out.println("Value of long"+ new X().bb);
+		System.out.println("Value of long"+ new X().pf);
+		System.out.println("Value of long"+ new X().d);
+		
+	}
+}

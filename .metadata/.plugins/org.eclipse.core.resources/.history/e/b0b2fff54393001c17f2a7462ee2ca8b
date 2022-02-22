@@ -1,0 +1,26 @@
+package assignment1;
+
+public class P {
+	public static void main(String args[]) {
+		System.out.println("Calling from Class P");
+		callFromClassMN();
+		 
+	}
+
+	public static void callFromClassMN() {
+		System.out.println("Calling from Class P");
+		new M().methodPublic();
+		new M().methodProtected();
+		new M().methodDefault(); 
+		System.out.println("Calling from Class P");
+		new N().methodPublic();
+		new N().methodProtected();
+		new N().methodDefault();
+	}
+
+}
+
+
+
+
+
