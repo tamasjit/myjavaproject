@@ -135,7 +135,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="q1_Difference_between_GET_and_POST" path="/q1_Difference_between_GET_and_POST" reloadable="true" source="org.eclipse.jst.jee.server:q1_Difference_between_GET_and_POST"/></Host>
+      <Context docBase="q1_Difference_between_GET_and_POST" path="/q1_Difference_between_GET_and_POST" reloadable="true" source="org.eclipse.jst.jee.server:q1_Difference_between_GET_and_POST"/><Context docBase="q3_ServletConcept" path="/q3_ServletConcept" reloadable="true" source="org.eclipse.jst.jee.server:q3_ServletConcept"/></Host>
     </Engine>
   </Service>
 </Server>
