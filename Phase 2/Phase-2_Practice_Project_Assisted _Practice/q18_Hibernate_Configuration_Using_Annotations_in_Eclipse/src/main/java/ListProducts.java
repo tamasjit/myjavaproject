@@ -49,7 +49,7 @@ public class ListProducts extends HttpServlet {
                         
                         Session session = factory.openSession();
                         // using HQL
-                        List<EProduct> list = session.createQuery("from EProduct").list();
+                        List<EProduct> list = session.createQuery("from EProduct", EProduct.class).list();
                         
                         session.close();
                         

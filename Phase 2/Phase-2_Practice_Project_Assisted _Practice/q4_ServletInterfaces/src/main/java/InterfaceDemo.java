@@ -1,6 +1,6 @@
 import java.io.*;
-import jakarta.servlet.*;
-import jakarta.servlet.annotation.WebServlet;
+import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 
 /**
 * Servlet implementation class InterfaceDemo

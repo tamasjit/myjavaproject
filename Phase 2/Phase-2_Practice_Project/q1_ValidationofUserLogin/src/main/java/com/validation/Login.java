@@ -42,7 +42,7 @@ public class Login extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		if(username.equals("vini@gmail.com") && password.equals("1234567890")) {
+		if(username.equals("tamasjit@gmail.com") && password.equals("123456789")) {
 			RequestDispatcher rd = request.getRequestDispatcher("Dashboard");
 			rd.forward(request, response);
 		}
