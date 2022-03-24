@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="q1_ValidationofUserLogin" path="/q1_ValidationofUserLogin" reloadable="true" source="org.eclipse.jst.jee.server:q1_ValidationofUserLogin"/><Context docBase="q3_AddNewProductDatabase" path="/q3_AddNewProductDatabase" reloadable="true" source="org.eclipse.jst.jee.server:q3_AddNewProductDatabase"/><Context docBase="q4_ProductDetailsPortal" path="/q4_ProductDetailsPortal" reloadable="true" source="org.eclipse.jst.jee.server:q4_ProductDetailsPortal"/><Context docBase="q2_ProductApp" path="/q2_ProductApp" reloadable="true" source="org.eclipse.jst.jee.server:q2_ProductApp"/></Host>
+      <Context docBase="q1_ValidationofUserLogin" path="/q1_ValidationofUserLogin" reloadable="true" source="org.eclipse.jst.jee.server:q1_ValidationofUserLogin"/><Context docBase="q4_ProductDetailsPortal" path="/q4_ProductDetailsPortal" reloadable="true" source="org.eclipse.jst.jee.server:q4_ProductDetailsPortal"/><Context docBase="q2_ProductApp" path="/q2_ProductApp" reloadable="true" source="org.eclipse.jst.jee.server:q2_ProductApp"/><Context docBase="q3_AddNewProductDB" path="/q3_AddNewProductDB" reloadable="true" source="org.eclipse.jst.jee.server:q3_AddNewProductDB"/></Host>
     </Engine>
   </Service>
 </Server>
