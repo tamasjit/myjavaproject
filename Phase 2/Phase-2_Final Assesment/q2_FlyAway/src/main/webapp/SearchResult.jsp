@@ -7,7 +7,7 @@
     String connectionUrl = "jdbc:mysql://localhost:3306/";
     String dbName = "flyaway";
     String userId = "root";
-    String password = "Avc@123";
+    String password = "Abc@123";
     String query = Search.getQuery();
     try {
         Class.forName(driverName);

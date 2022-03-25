@@ -33,18 +33,16 @@
         <div>
           <label for="source">Source</label>
                     <select  id="source" name="source">
-                        <option value="India">India</option>
-                        <option value="China">China</option>
-                        <option value="Australia">Australia</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="London">London</option>
+                        <option value="kolkata">kolkata</option>
                         <option value="Dubai">Dubai</option>
-                        <option value="Russia">Russia</option>
-                        <option value="Thailand">Thialand</option>
-                        <option value="Singapore">Singapore</option>
-                        <option value="Ukraine">Ukraine</option>
-                        <option value="Iran">Iran</option>
-                        <option value="Israel">Israel</option>
-                        <option value="USA">USA</option>
-                        <option value="UK">UK</option>
+                        <option value="New York">New York</option>
+                        <option value="Moscow">Moscow</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Chennai">Chennai</option>
                     </select>
         
         
@@ -55,16 +53,16 @@
         
            <label for="destination">Destination</label>
                     <select  id="destination" name="destination">
-                        <option value="USA">USA</option>
-                        <option value="UK">UK</option>
-                        <option value="India">India</option>
-                        <option value="Armenia">Armenia</option>
-                        <option value="Pakistan">Pakistan</option>
-                        <option value="Australia">Australia</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="London">London</option>
+                        <option value="kolkata">kolkata</option>
                         <option value="Dubai">Dubai</option>
-                        <option value="Ukraine">Ukraine</option>
-                        <option value="Singapore">Singapore</option>
-                        <option value="Israel">Israel</option>
+                        <option value="New York">New York</option>
+                        <option value="Moscow">Moscow</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Chennai">Chennai</option>
                         
                     </select>
         
