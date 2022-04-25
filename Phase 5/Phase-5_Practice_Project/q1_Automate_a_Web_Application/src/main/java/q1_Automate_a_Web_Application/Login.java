@@ -10,7 +10,7 @@ public class Login {
 
 	public static void main(String[] args) {
 
-		String path= "C:\\Users\\tamas\\Downloads\\chromedriver_win32\\chromedriver.exe";
+		String path= "C:\\Users\\TAMASJIT\\Downloads\\chromedriver_win32\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver",path);
 		
 		///initiate the driver
@@ -28,7 +28,7 @@ public class Login {
 		password.getAttribute("placeholder");		
 		System.out.println(password.getAttribute("placeholder"));
 		
-		email.sendKeys("tamasjit1@gmail.com");
+		email.sendKeys("tamasjit3@gmail.com");
 		password.sendKeys("Howrah$22@1999");
 		
 		 

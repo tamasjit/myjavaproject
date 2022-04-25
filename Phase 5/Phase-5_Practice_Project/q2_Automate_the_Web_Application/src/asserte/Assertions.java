@@ -17,7 +17,7 @@ public class Assertions {
     WebDriver driver;
     @Test
     public void Launch() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\tamas\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\TAMASJIT\\Downloads\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         try {
             Thread.sleep(3000);

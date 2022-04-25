@@ -10,7 +10,7 @@ public class Registration {
 
 	public static void main(String[] args) {
 
-		String path= "C:\\Users\\tamas\\Downloads\\chromedriver_win32\\chromedriver.exe";
+		String path= "C:\\Users\\TAMASJIT\\Downloads\\chromedriver_win32\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver",path);
 		
 		///initiate the driver
@@ -39,8 +39,8 @@ public class Registration {
 		driver.findElement(By.id("register-honor_code")).click();
 		
 		name.sendKeys("Tamasjit Ghoshal");
-		username.sendKeys("tamasjit1");
-		email.sendKeys("tamasjit1@gmail.com");
+		username.sendKeys("tamasjit3");
+		email.sendKeys("tamasjit3@gmail.com");
 		password.sendKeys("Howrah$22@1999");
 		 
 		WebElement login= driver.findElement(By.className("action-primary"));
