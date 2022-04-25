@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-21T00:47:05 IST" name="Default suite" finished-at="2022-04-21T00:47:25 IST" duration-ms="20909">
+  <suite started-at="2022-04-26T04:27:37 IST" name="Default suite" finished-at="2022-04-26T04:27:37 IST" duration-ms="9">
     <groups>
     </groups>
-    <test started-at="2022-04-21T00:47:05 IST" name="Default test" finished-at="2022-04-21T00:47:25 IST" duration-ms="20909">
-      <class name="asserte.Assertions">
-        <test-method signature="Launch()[pri:0, instance:asserte.Assertions@27ce24aa]" started-at="2022-04-21T00:47:05 IST" name="Launch" finished-at="2022-04-21T00:47:15 IST" duration-ms="10399" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launch -->
-        <test-method signature="Facebook()[pri:0, instance:asserte.Assertions@27ce24aa]" started-at="2022-04-21T00:47:15 IST" name="Facebook" finished-at="2022-04-21T00:47:21 IST" depends-on-methods="asserte.Assertions.Launch" duration-ms="5871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Facebook -->
-        <test-method signature="Login()[pri:0, instance:asserte.Assertions@27ce24aa]" started-at="2022-04-21T00:47:21 IST" name="Login" finished-at="2022-04-21T00:47:25 IST" depends-on-methods="asserte.Assertions.Facebook" duration-ms="4521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- asserte.Assertions -->
+    <test started-at="2022-04-26T04:27:37 IST" name="Default test" finished-at="2022-04-26T04:27:37 IST" duration-ms="9">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
